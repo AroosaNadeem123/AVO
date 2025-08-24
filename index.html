@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minimal Website</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2c5c3f8d2.js" crossorigin="anonymous"></script>
+  <link 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Header / Navbar (fixed) ===== -->
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#home" class="logo">a<span>v</span>o</a>
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home"  class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORK</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#footer">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero / Cover ===== -->
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+      <div class="text-content">
+        <h1>WE CREATE<br />MODERN &<br />MINIMAL WEBSITE</h1>
+        <p>A small river named Duden flows by their place and<br />supplies it with the necessary regelialia.</p>
+        <button class="start-btn">Start Project</button>
+      </div>
+
+      <div class="stat">
+        <h2>400<span>|</span></h2>
+        <p>More than a<br />hundred successful<br />projects</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about-section" id="about">
+    <h2 class="section-title">ABOUT US</h2>
+    <div class="services-icons">
+      <div class="service">
+        <img src="UI.jpg" alt="UI/UX Icon" />
+        <p>UI/UX Design</p>
+      </div>
+      <div class="service">
+        <img src="WEB.jpg" alt="Web Development Icon" />
+        <p>Web Development</p>
+      </div>
+      <div class="service">
+        <img src="PRODUCT.jpg" alt="Product Design Icon" />
+        <p>Product Design</p>
+      </div>
+      <div class="service">
+        <img src="APP.jpg" alt="Mobile Apps Icon" />
+        <p>Mobile Apps</p>
+      </div>
+      <div class="service">
+        <img src="SEO.jpg" alt="SEO Icon" />
+        <p>SEO</p>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="left">
+        <h3>Welcome to AVO A<br />Personal Porfolio<br />Web Agency</h3>
+        <p>
+          Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+          A small river named Duden flows by their place and supplies it with the necessary regelialia.
+          It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+      </div>
+
+      <div class="middle">
+        <img src="Screenshot 2025-08-01 135748.jpg" alt="office" />
+      </div>
+
+      <div class="right">
+        <p>
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+          there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+          a large language ocean. A small river named Duden flows by their place and supplies it with the
+          necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+        <button class="red-btn">View all projects</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Steps ===== -->
+  <div class="steps-wrapper">
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">01</div>
+        <div class="title-group">
+          <p class="step-title">Search Engine<br/>Optimization</p>
+          <div class="underline"></div>
+          <p class="step-desc">Far far away, behind the word mountains</p>
+        </div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">02</div>
+        <div class="title-group">
+          <p class="step-title">Search Engine<br/>Optimization</p>
+          <div class="underline"></div>
+          <p class="step-desc">Far far away, behind the word mountains</p>
+        </div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">03</div>
+        <div class="title-group">
+          <p class="step-title">Search Engine<br/>Optimization</p>
+          <div class="underline"></div>
+          <p class="step-desc">Far far away, behind the word mountains</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Works ===== -->
+  <section class="works-section" id="works">
+    <h2 class="section-title">OUR WORKS</h2>
+
+    <div class="work-card">
+      <img src="tape.jpg" alt="Cassette Tape" class="work-image" />
+      <div class="work-content">
+        <p class="category">Web Design</p>
+        <h3 class="title">Cassette tape</h3>
+        <p class="desc">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="author">
+          <img src="images.jpeg" alt="Jamie Jonson" />
+          <div>
+            <p class="name">Jamie Jonson</p>
+            <p class="site">avo.com</p>
+          </div>
+        </div>
+        <button class="view-btn">VIEW PORTFOLIO</button>
+      </div>
+    </div>
+
+    <div class="work-card reverse">
+      <div class="work-content">
+        <p class="category">Application</p>
+        <h3 class="title">Miniwall Clock</h3>
+        <p class="desc">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="author">
+          <img src="images (1).jpeg" alt="Jamie Jonson" />
+          <div>
+            <p class="name">Jamie Jonson</p>
+            <p class="site">avo.com</p>
+          </div>
+        </div>
+        <button class="view-btn">VIEW PORTFOLIO</button>
+      </div>
+      <img src="clock.jpg" alt="Miniwall Clock" class="work-image" />
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <div class="container" role="main">
+    <h2>CLIENTS SAYS ABOUT US?</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="quote-icon">❝</div>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div class="profile">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/71a8982c-757f-4b0a-85ee-669e2096e733.png" alt="Roger Scott" />
+          <div class="profile-info">
+            <div class="name">Roger Scott</div>
+            <div class="role">Marketing Manager</div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="quote-icon">❝</div>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div class="profile">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2f348491-c0f3-4820-b80d-17474cb084f2.png" alt="Roger Scott" />
+          <div class="profile-info">
+            <div class="name">Roger Scott</div>
+            <div class="role">Marketing Manager</div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="quote-icon">❝</div>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div class="profile">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c6522ebe-076d-44f4-9cef-ecbd5472095c.png" alt="Roger Scott" />
+          <div class="profile-info">
+            <div class="name">Roger Scott</div>
+            <div class="role">Marketing Manager</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <p class="small-title">Get Started</p>
+      <h1 class="cta-heading">Fill in the brief and get the project estimate</h1>
+      <p class="cta-subtext">
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+      </p>
+      <button class="cta-button">Get started</button>
+    </div>
+  </section>
+
+  <!-- ===== Blog ===== -->
+  <section class="blog-section" id="blog">
+    <h2 class="section-title">Recent Blog</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <h3 class="blog-title">Amplify your blockchain team</h3>
+        <img src="image_1.jpg.webp" alt="Blog Image" class="blog-image">
+        <div class="blog-meta">June 01, 2020 &nbsp; ADMIN &nbsp; <span>💬 3</span></div>
+        <p class="blog-desc">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+      </div>
+      <div class="blog-card">
+        <h3 class="blog-title">Amplify your blockchain team</h3>
+        <img src="Screenshot 2025-08-01 172102.jpg" alt="Blog Image" class="blog-image">
+        <div class="blog-meta">June 01, 2020 &nbsp; ADMIN &nbsp; <span>💬 3</span></div>
+        <p class="blog-desc">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+      </div>
+      <div class="blog-card">
+        <h3 class="blog-title">Amplify your blockchain team</h3>
+        <img src="image_1.jpg.webp" alt="Blog Image" class="blog-image">
+        <div class="blog-meta">June 01, 2020 &nbsp; ADMIN &nbsp; <span>💬 3</span></div>
+        <p class="blog-desc">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+      </div>
+      <div class="blog-card">
+        <h3 class="blog-title">Amplify your blockchain team</h3>
+        <img src="Screenshot 2025-08-01 172102.jpg" alt="Blog Image" class="blog-image">
+        <div class="blog-meta">June 01, 2020 &nbsp; ADMIN &nbsp; <span>💬 3</span></div>
+        <p class="blog-desc">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-top-angle"></div>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3 class="logo">avo</h3>
+        <p>Far far away, behind the word mountains, far from the countries.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Community</h4>
+        <ul>
+          <li><i class="fas fa-angle-right"></i> Projects</li>
+          <li><i class="fas fa-angle-right"></i> Team</li>
+          <li><i class="fas fa-angle-right"></i> Reviews</li>
+          <li><i class="fas fa-angle-right"></i> FAQs</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>About Us</h4>
+        <ul>
+          <li><i class="fas fa-angle-right"></i> Our Story</li>
+          <li><i class="fas fa-angle-right"></i> Meet the team</li>
+          <li><i class="fas fa-angle-right"></i> Careers</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><i class="fas fa-angle-right"></i> About Us</li>
+          <li><i class="fas fa-angle-right"></i> Press</li>
+          <li><i class="fas fa-angle-right"></i> Contact</li>
+          <li><i class="fas fa-angle-right"></i> Careers</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Have a Questions?</h4>
+        <ul class="contact-info">
+          <li><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</li>
+          <li><i class="fas fa-phone"></i> +2 392 3929 210</li>
+          <li><i class="fas fa-envelope"></i> info@yourdomain.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright ©2025 All rights reserved | This template is made with ❤️ by <span>Colorlib</span></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
